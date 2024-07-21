@@ -1,28 +1,137 @@
 {
-  "duties": [
+  "plans": [
     {
-      "name": "Vinitta",
-      "cleaning_time": "After Lunch",
-      "duty": "Wash house",
-      "id": "3err3"
+      "id": "planA",
+      "name": "Plan A",
+      "difficulty": "Easy",
+      "duration": "30",
+      "Daily_Calorie_Limit": "1800",
+      "calories_toBurn": "050",
+      "calories_burnt": "50",
+      "exercises": {
+        "plank": "10sec",
+        "push-ups": "10",
+        "minutes-walk": "30",
+        "run": "100m",
+        "squats": "10",
+        "body-streches": "5"
+      }
     },
     {
-      "id": "a125",
-      "name": "Jane",
-      "cleaning_time": "After Supper",
-      "duty": "choose movie"
+      "id": "planB",
+      "name": "Plan B",
+      "difficulty": "Moderate",
+      "duration": "30",
+      "Daily_Calorie_Limit": "2000",
+      "calories_toBurn": "100",
+      "calories_burnt": "100",
+      "exercises": {
+        "plank": "20sec",
+        "push-ups": "20",
+        "minutes-walk": "30",
+        "run": "500m",
+        "squats": "20",
+        "body-streches": "5"
+      }
     },
     {
-      "id": "f6a8",
-      "name": "maingi",
-      "cleaning_time": "After Supper",
-      "duty": "close doors"
+      "id": "planC",
+      "name": "Plan C",
+      "difficulty": "Hard",
+      "duration": "30",
+      "Daily_Calorie_Limit": "2200",
+      "calories_toBurn": "150",
+      "calories_burnt": "150",
+      "exercises": {
+        "plank": "30sec",
+        "push-ups": "30",
+        "minutes-walk": "40",
+        "run": "700m",
+        "squats": "20",
+        "body-streches": "10"
+      }
     },
     {
-      "id": "5d03",
-      "name": "Ahmed",
-      "cleaning_time": "at 4pm",
-      "duty": "prepare tea"
+      "id": "planD",
+      "name": "Plan D",
+      "difficulty": "Extreme",
+      "duration": "60",
+      "Daily_Calorie_Limit": "2400",
+      "calories_toBurn": "200",
+      "calories_burnt": "200",
+      "exercises": {
+        "plank": "40sec",
+        "push-ups": "40",
+        "minutes-walk": "40",
+        "run": "1000m",
+        "squats": "40",
+        "body-streches": "15"
+      }
+    },
+    {
+      "id": "planE",
+      "name": "Plan E",
+      "difficulty": "Pro",
+      "duration": "90",
+      "Daily_Calorie_Limit": "2600",
+      "calories_toBurn": "250",
+      "calories_burnt": "250",
+      "exercises": {
+        "plank": "50sec",
+        "push-ups": "50",
+        "minutes-walk": "50",
+        "run": "1500m",
+        "squats": "40",
+        "body-streches": "20"
+      }
+    },
+    {
+      "id": "planF",
+      "name": "Plan F",
+      "difficulty": "Ultimate",
+      "duration": "90",
+      "Daily_Calorie_Limit": "2800",
+      "calories_toBurn": "300",
+      "calories_burnt": "300",
+      "exercises": {
+        "plank": "60sec",
+        "push-ups": "60",
+        "minutes-walk": "50",
+        "run": "2000m",
+        "squats": "50",
+        "body-streches": "20"
+      }
     }
-  ]
+  ],
+  "userName": [
+    {
+      "id": "p1",
+      "name": "Justice"
+    },
+    {
+      "id": "p2",
+      "name": "Itui"
+    },
+    {
+      "id": "p3",
+      "name": "Simon"
+    },
+    {
+      "id": "p4",
+      "name": "Becky"
+    },
+    {
+      "id": "08b5",
+      "name": "Mike Jay"
+    }
+  ],
+  "foodCalories": {
+    "carbohydrates": "5",
+    "vitamins": "1",
+    "proteins": "4",
+    "fats": "9",
+    "vegetables": "2",
+    "fruits": "2",
+    "water": "0.5"
+  }
 }
